@@ -25,10 +25,11 @@ body, html {
   background-image: url("../img/terapiagif.gif");
   transition: 0.5s ease;
   cursor: pointer;
-
+/*
   transform: translate(1px,-15px);
   -webkit-transform: translate(1px,-15px);
   -moz-transform: translate(1px,-15px);
+  */
 }
 
 .masaje-image {
@@ -47,9 +48,11 @@ body, html {
     transition: 0.5s ease;
     cursor: pointer;
 
-    transform: translate(1px,-15px);
-    -webkit-transform: translate(1px,-15px);
-    -moz-transform: translate(1px,-15px);
+/*
+  transform: translate(1px,-15px);
+  -webkit-transform: translate(1px,-15px);
+  -moz-transform: translate(1px,-15px);
+  */
   }
   
   .estilista-image {
@@ -67,10 +70,11 @@ body, html {
     background-image: url("../img/haircut.gif");
     transition: 0.5s ease;
     cursor: pointer;
-
-    transform: translate(1px,-15px);
-    -webkit-transform: translate(1px,-15px);
-    -moz-transform: translate(1px,-15px);
+/*
+  transform: translate(1px,-15px);
+  -webkit-transform: translate(1px,-15px);
+  -moz-transform: translate(1px,-15px);
+  */
   }
 
   .tabla{
