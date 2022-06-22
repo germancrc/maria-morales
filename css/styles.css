@@ -22,7 +22,7 @@ body, html {
 }
 
 .terapia-image:hover{
-  background-image: url("/img/terapiagif.gif");
+  background-image: url("./img/terapiagif.gif");
   transition: 0.5s;
   cursor: pointer;
 
@@ -32,7 +32,7 @@ body, html {
 }
 
 .masaje-image {
-    background-image: url("/img/masaje.png");
+    background-image: url("./img/masaje.png");
     height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body, html {
   }
 
   .masaje-image:hover{
-    background-image: url("/img/massagegif.gif");
+    background-image: url("./img/massagegif.gif");
     transition: 0.5s;
     cursor: pointer;
 
@@ -53,7 +53,7 @@ body, html {
   }
   
   .estilista-image {
-    background-image: url("/img/estilista2.jpg");
+    background-image: url("./img/estilista2.jpg");
     height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body, html {
   }
 
   .estilista-image:hover{
-    background-image: url("/img/haircut.gif");
+    background-image: url("./img/haircut.gif");
     transition: 0.5s;
     cursor: pointer;
 
