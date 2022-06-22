@@ -120,6 +120,20 @@ body, html {
   }
 
   /*---------------------------MEDIA QUERIES----------------------------------------------------*/
+@media(hover: none){
+  .terapia-image:hover{
+    background-image: url("../img/terapia-fisica.jpg");
+  }
+
+  .masaje-image:hover{
+    background-image: url("../img/masaje.png");
+  }
+
+  .estilista-image:hover{
+    background-image: url("../img/estilista2.jpg");
+  }
+}
+
 
 /*PANTALLAS PEQ*/
 @media (max-width: 575.98px) {
@@ -128,7 +142,7 @@ body, html {
   }
 
   .terapia-image:hover, .masaje-image:hover, .estilista-image:hover{
-    display: none;
+    
   }
 }
 
