@@ -126,6 +126,10 @@ body, html {
   .terapia-image, .masaje-image, .estilista-image{
     height: 40vh;
   }
+
+  .terapia-image:hover, .masaje-image:hover, .estilista-image:hover{
+    display: none;
+  }
 }
 
 /* Medium devices (tablets, less than 992px)*/
