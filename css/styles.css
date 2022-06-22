@@ -1,0 +1,135 @@
+body, html {
+    height: 100%;
+    background-color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+  height: 3rem;
+}
+
+/* The hero image */
+.terapia-image {
+  background-image: url("/img/terapia-fisica.jpg");
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-style: solid;
+  border-color: white;
+  
+}
+
+.terapia-image:hover{
+  background-image: url("/img/terapiagif.gif");
+  transition: 0.5s;
+  cursor: pointer;
+
+  transform: translate(1px,-15px);
+  -webkit-transform: translate(1px,-15px);
+  -moz-transform: translate(1px,-15px);
+}
+
+.masaje-image {
+    background-image: url("/img/masaje.png");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+  }
+
+  .masaje-image:hover{
+    background-image: url("/img/massagegif.gif");
+    transition: 0.5s;
+    cursor: pointer;
+
+    transform: translate(1px,-15px);
+    -webkit-transform: translate(1px,-15px);
+    -moz-transform: translate(1px,-15px);
+  }
+  
+  .estilista-image {
+    background-image: url("/img/estilista2.jpg");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+  }
+
+  .estilista-image:hover{
+    background-image: url("/img/haircut.gif");
+    transition: 0.5s;
+    cursor: pointer;
+
+    transform: translate(1px,-15px);
+    -webkit-transform: translate(1px,-15px);
+    -moz-transform: translate(1px,-15px);
+  }
+
+  .tabla{
+    padding-top: 1rem;
+  }
+
+  .overlay-terapia {
+    position: st; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .texto-terapia, .texto-masaje, .texto-estilista {
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    background-color: #333333;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.5rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover{
+    text-decoration: underline;
+    color: white;
+  }
+
+  /*---------------------------MEDIA QUERIES----------------------------------------------------*/
+
+/*PANTALLAS PEQ*/
+@media (max-width: 575.98px) {
+  .terapia-image, .masaje-image, .estilista-image{
+    height: 40vh;
+  }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+}
+
+
+
+
+
+
+
