@@ -116,7 +116,7 @@ body, html {
 /*PANTALLAS PEQ*/
 @media (max-width: 575.98px) {
   .terapia-image, .masaje-image, .estilista-image{
-    height: 40vh;
+    height: 62vh;
   }
 
   .texto-terapia, .texto-masaje, .texto-estilista {
@@ -124,18 +124,24 @@ body, html {
     position: static;
     background-color: #333333;
     color: white;
-    margin-top:30vh;
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: 1.5rem;
-    border-radius: 5px;
+    padding: 5%;
+    font-size: 1.8rem;
+    border-radius: 3px;
   }
 }
 
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
-  .tabla{
-    width: 90vw;
+  .texto-terapia, .texto-masaje, .texto-estilista {
+    text-align: center;
+    position: static;
+    background-color: #333333;
+    color: white;
+    margin-top: 50vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1rem;
+    border-radius: 3px;
   }
 
 }
